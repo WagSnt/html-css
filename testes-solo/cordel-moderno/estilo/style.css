@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Passion+One&display=swap');
+
+:root {
+    --fonte1: verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Dancing Script', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    font-family: var(--fonte01);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    font-family: var(--fonte02);
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
+    
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 1.2em;
+
+}
+
+section {
+    font-family: var(--fonte03);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    line-height: 2em;
+    
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+}

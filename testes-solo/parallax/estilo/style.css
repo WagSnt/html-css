@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666(0, 0, 0);
+}
+
+body > div.img01 {
+    background-image: url(../imagens/image1.jpg);
+    opacity: 0.70;
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div.ptexto {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+body > div.img01 > div.ptexto > span.border {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+div.img02 {
+    background-image: url(../imagens/image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+    opacity: 0.70;
+}
+
+
+
+div.img02 > div.ptexto > span.bordertransparent {
+    background-color: transparent;
+    color: white;
+    
+}
+
+section.gray {
+    background-color: #282e34;
+    color: white;
+    text-align: center;
+    padding: 50px;
+
+}
+
+div.img03 {
+    background-image: url(../imagens/image3.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.70;
+}
