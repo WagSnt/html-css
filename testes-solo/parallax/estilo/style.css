@@ -18,18 +18,19 @@ body > div.img01 {
     background-image: url(../imagens/image1.jpg);
     opacity: 0.70;
     height: 100vh;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-div.ptexto {
+
+.ptexto {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
@@ -41,15 +42,28 @@ body > div.img01 > div.ptexto > span.border {
     padding: 20px;
 }
 
+section {
+    padding: 50px 80px;
+    line-height: 2em;
+}
+
+section > h2 {
+    margin: 20px 0px;
+}
+
+section > p {
+    margin: 16px 0px;
+}
+
 section.normal {
     background-color: white;
     color: black;
     text-align: center;
-    padding: 50px;
 }
 
-div.img02 {
+.img01, .img02, .img03 {
     background-image: url(../imagens/image2.jpg);
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +74,7 @@ div.img02 {
 
 
 
-div.img02 > div.ptexto > span.bordertransparent {
+div.img02, div.img03 > div.ptexto > span.bordertransparent {
     background-color: transparent;
     color: white;
     
@@ -70,7 +84,7 @@ section.gray {
     background-color: #282e34;
     color: white;
     text-align: center;
-    padding: 50px;
+
 
 }
 
