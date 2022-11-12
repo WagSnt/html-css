@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+  <h3>Cadastro da liga dos astronautas</h3>
+  <form action="cadastro.php">
+    <p>
+      <label for="inome">Nome:</label>
+      <input type="text" name="nome" id="inome">
+    </p>
+    
+    <p>
+      <label for="iemail">E-mail</label>
+      <input type="email" name="email" id="iemail">
+      <label for="isenha"> -Senha</label>
+      <input type="password" name="senha" id="isenha">
+    </p>
+
+    <p>
+      <label for="inasc">Data de nascimento: </label>
+      <input type="date" name="nasc" id="inasc">
+      <label for="ifoto"> -Foto: </label>
+      <input type="file" name="foto" id="ifoto">
+    </p>
+
+    <p>
+      <label for="inac">Nacionalidade: </label>
+      <select name="nac" id="inac">
+        <option value="brasileiro">brasileiro</option>
+        <option value="americano">americano</option>
+        <option value="russo">russo</option>
+        <option value="ucraniano">ucraniano</option>
+      </select>
+
+      <label for="igen">Genero: </label>
+      <input type="radio" name="nac" id="inac">F
+      <input type="radio" name="nac" id="inac">M
+    </p>
+    
+    <p><label for="iquali">Suas principais qualidades:</label><br>
+      <input type="checkbox" name="quali" id="iquali">Inteligência |
+      <input type="checkbox" name="quali" id="iquali">Resiliência |
+      <input type="checkbox" name="quali" id="iquali">Preparo Físico |
+      <input type="checkbox" name="quali" id="iquali">Educação |
+    </p>
+
+    <p>
+      <textarea name="desc" id="idesc" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>
+      
+    </p>
+
+    <p><input type="submit" value="Criar"></p>
+  </form>
+</body>
+</html>
