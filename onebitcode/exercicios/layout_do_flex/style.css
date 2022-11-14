@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -11,7 +11,7 @@
   display: flex;
   gap: 0px 15px;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .item {
