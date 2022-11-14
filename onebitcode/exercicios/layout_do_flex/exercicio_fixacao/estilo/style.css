@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+
+}
+
+.icon_rock {
+  width: 40px;
+}
+
+.logo_obt {
+  width: 200px;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menu > a:hover {
+  border: 1px solid red;
+  color: lightgray;
+
+  transition-duration: 0.5s;
+}

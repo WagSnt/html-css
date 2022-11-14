@@ -9,9 +9,10 @@
   background-color: darkgray;
   min-height: 100vh;
   display: flex;
-  gap: 0px 15px;
-  justify-content: center;
-  align-items: center;
+  gap: 0px 15px; /* espaçamento entre itens */
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  flex-wrap: wrap /* quebra de itens */
 }
 
 .item {
@@ -20,4 +21,7 @@
   border: 2px solid black;
   background-color: white;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
