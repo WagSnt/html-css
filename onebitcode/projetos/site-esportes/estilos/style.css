@@ -44,8 +44,8 @@ header {
 
 .welcome {
   height: 100px;
-  padding: 20px;
   text-align: center;
+  margin: 10px;
 }
 
 h1 {
@@ -54,20 +54,20 @@ h1 {
 }
 
 .categorias {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "cat-principal cat-extra";
   padding: 20px;
-  columns: 2;
-  gap: 0px 50px;
+  flex-grow: 1;
 }
 
 .cat-principal {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
-  align-items: center;
+  grid-area: cat-principal;
+  
 }
 
 .cat-principal img {
@@ -100,6 +100,7 @@ h1 {
   border: 1px solid black;
   gap: 15px;
   align-items: center;
+  grid-area: cat-extra;
 }
 
 .cat-extra img {
@@ -112,6 +113,7 @@ h1 {
   width: 300px;
   margin: 20px;
   border-radius: 10px;
+  padding-bottom: 10px;
 }
 
 .item-extra:hover {

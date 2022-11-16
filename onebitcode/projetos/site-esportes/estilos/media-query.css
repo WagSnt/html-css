@@ -1,2 +1,17 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
+@media (max-width: 860px) {
+  .categorias {
+    grid-template-areas: 
+    "cat-principal"
+    "cat-extra";
+    justify-content: center;
+    display: flex; /* para poder centralizar o conteúdo */
+    flex-direction: column;
+    align-items: center;
+    min-width: auto;
+  }
+  .menu, footer a{
+    font-size: 16px;
+  }
+}
